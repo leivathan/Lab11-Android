@@ -33,14 +33,15 @@
             android:layout_marginBottom="8dp"
             android:layout_marginTop="8dp">
 
-            <TextView
-                android:id="@+id/jsonResult"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
-                android:layout_gravity="start"
-                android:textAlignment="viewStart"
-                android:textColor="@android:color/black" />
         </ScrollView>
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/jsonResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black" />
 </FrameLayout>
